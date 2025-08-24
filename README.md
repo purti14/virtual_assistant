@@ -1,7 +1,9 @@
 CONVERSATIONAL AI 🗣️
+
 This repository contains the code for a conversational AI voice assistant built using the Python language. The project leverages the ElevenLabs API for real-time, lifelike voice synthesis, creating a dynamic and interactive user experience.
 
 🚀 Features
+
 Real-time voice conversation: Engage in natural, back-and-forth dialogue with the AI.
 
 Customizable AI persona: The assistant's behavior and personality can be easily configured using a prompt.
@@ -13,6 +15,7 @@ Secure API key management: Uses a .env file to safely store and load sensitive A
 Easy to extend: The modular design allows for easy integration of new features, such as additional APIs or custom voice models.
 
 🛠️ Technologies
+
 Python: The core programming language.
 
 ElevenLabs API: Powers the voice synthesis and conversational intelligence.
@@ -20,6 +23,7 @@ ElevenLabs API: Powers the voice synthesis and conversational intelligence.
 python-dotenv: Manages environment variables for secure credential handling.
 
 📦 Installation
+
 To get the project up and running on your local machine, follow these steps:
 
 1. Clone the repository
@@ -48,6 +52,7 @@ Note: If the requirements.txt file is not present, you can install the dependenc
 pip install elevenlabs python-dotenv
 
 🔑 API Key Configuration
+
 To use the ElevenLabs API, you need an API key and an Agent ID.
 
 Get your credentials from your ElevenLabs profile.
@@ -61,6 +66,7 @@ API_KEY="your_api_key_here"
 Important: Never commit your .env file to version control. It's a security risk. The .gitignore file in this repository is already configured to ignore .env.
 
 ▶️ Usage
+
 Once everything is set up, you can run the script from your terminal:
 
 Bash
@@ -69,5 +75,6 @@ python voice_assistant.py
 The script will start a conversational session, and you can begin speaking. The AI's responses will be played through your speakers, and your transcribed speech will be printed to the console.
 
 🤝 Contributing
+
 Contributions are welcome! If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request.
 
